@@ -36,8 +36,7 @@ Untuk melakukan normalisasi database kita harus mengidentifikasi data seperti ap
     |4| Rehan Putra   | Jl. Anggrek No. 5 | 08129876543 |
 
 
-    Berdasarkan data tersebut, apakah sudah sesuai dengan 1NF sampai 3NF? dan perbaiki jika terdapat kesalahan.
-
+    
 ### 1NF
 Kita analisis langkah demi langkah normalisasi tabel tersebut dari **1NF sampai 3NF**.
 
@@ -60,9 +59,7 @@ Kita analisis langkah demi langkah normalisasi tabel tersebut dari **1NF sampai 
 
 * Semua atribut bernilai tunggal (tidak ada data ganda dalam satu sel).
 
-**Hasil pemeriksaan:**
-✓ Semua kolom berisi nilai tunggal.
-→ **Sudah memenuhi 1NF.**
+**Hasil pemeriksaan: Sudah memenuhi 1NF.**
 
 ---
 
@@ -76,7 +73,8 @@ Kita analisis langkah demi langkah normalisasi tabel tersebut dari **1NF sampai 
 **Catatan:**
 Kunci utama: `id_anggota`.
 Setiap kolom (`nama`, `alamat`, `no_telepon`) bergantung pada `id_anggota`.
-→ **Sudah memenuhi 2NF.**
+
+**Sudah memenuhi 2NF.**
 
 ---
 
@@ -93,7 +91,7 @@ Ini menunjukkan bahwa **alamat dan nomor telepon mungkin milik rumah tangga atau
 Artinya ada *ketergantungan transitif*:
 `id_anggota → alamat` dan `alamat → no_telepon`.
 
-→ **Belum memenuhi 3NF.**
+**Belum memenuhi 3NF.**
 
 ---
 
