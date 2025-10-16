@@ -25,15 +25,13 @@ Untuk melakukan normalisasi database kita harus mengidentifikasi data seperti ap
 
 **Data awal (belum sesuai)** 
 
-    | id_anggota | nama | alamat | no_telepon |
 
-    |1| Budi Santoso  | Jl. Melati No. 10 | 08123456789 |
-
-    |2| Siti Aminah   | Jl. Anggrek No. 5 | 08129876543 |
-
-    |3| Andi Pratama  | Jl. Kenanga No. 7 | 08137778899 |
-
-    |4| Rehan Putra   | Jl. Anggrek No. 5 | 08129876543 |
+| id_anggota | nama         | alamat            | no_telepon  |
+| ---------- | ------------ | ----------------- | ----------- |
+| 1          | Budi Santoso | Jl. Melati No. 10 | 08123456789 |
+| 2          | Siti Aminah  | Jl. Anggrek No. 5 | 08129876543 |
+| 3          | Andi Pratama | Jl. Kenanga No. 7 | 08137778899 |
+| 4          | Rehan Putra  | Jl. Anggrek No. 5 | 08129876543 |
 
 
     
@@ -88,8 +86,7 @@ Setiap kolom (`nama`, `alamat`, `no_telepon`) bergantung pada `id_anggota`.
 **Masalah ditemukan:**
 Baris ke-2 dan ke-4 memiliki **alamat dan nomor telepon yang sama**.
 Ini menunjukkan bahwa **alamat dan nomor telepon mungkin milik rumah tangga atau alamat tertentu**, bukan unik untuk tiap anggota.
-Artinya ada *ketergantungan transitif*:
-`id_anggota → alamat` dan `alamat → no_telepon`.
+
 
 **Belum memenuhi 3NF.**
 
