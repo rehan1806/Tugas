@@ -35,8 +35,7 @@ Untuk melakukan normalisasi database kita harus mengidentifikasi data seperti ap
 
     |4| Rehan Putra   | Jl. Anggrek No. 5 | 08129876543 |
 
-**Di sini saya menggunakan AI generatif untuk membantu memperbaiki struktur tabel yang salah dengan Prompt**
-    
+
     Berdasarkan data tersebut, apakah sudah sesuai dengan 1NF sampai 3NF? dan perbaiki jika terdapat kesalahan.
 
 ### 1NF
