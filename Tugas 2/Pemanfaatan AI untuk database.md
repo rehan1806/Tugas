@@ -127,4 +127,6 @@ Pisahkan data menjadi dua tabel:
 * Belum **3NF** karena ada ketergantungan antar atribut non-primer.
 * Setelah dipisah menjadi tabel **Anggota** dan **Alamat**, data sudah **sesuai 3NF**.
 
-<img width="961" height="1280" alt="image" src="https://github.com/user-attachments/assets/fd553b6e-02a0-46d8-8edf-11868e55d6d9" />
+## Muhammad Raihan 3C
+
+<img width="963" height="1280" alt="image" src="https://github.com/user-attachments/assets/5c553e74-80d1-4704-92ba-d5c28ab3a638" />
